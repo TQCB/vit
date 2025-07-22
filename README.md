@@ -4,6 +4,10 @@ This repository contains a clean and concise PyTorch implementation of the Visio
 
 The implementation includes the core components of the ViT architecture: patch embedding, positional embeddings, the transformer encoder (multi-head attention and feed-forward layers), and the classification head.
 
+# Use
+
+See `vit_train.ipynb` for a basic use of the model on the CIFAR-10 dataset.
+
 # References
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale: https://arxiv.org/abs/2010.11929
 - Inspired by various open-source ViT implementations, particularly those using einops.
